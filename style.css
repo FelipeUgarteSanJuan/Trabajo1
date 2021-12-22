@@ -54,3 +54,38 @@ header {
     float: left;
     max-width: 50px;
 }
+
+.caja1 {
+    padding: 20px;
+    border: 4px;
+    color: rgb(27, 25, 25);
+    background-color: rgb(226, 226, 121);
+}
+
+.caja2 {
+    padding: 20px;
+    border: 4px;
+    color: rgb(27, 25, 25)te;
+    background-color: rgb(226, 226, 121);
+}
+
+.caja1 {
+    grid-area: caja1;
+}
+
+.caja2 {
+    grid-area: caja2;
+}
+
+.footer {
+    background-color: sandybrown;
+    color: rgb(27, 25, 25)e;
+    grid-area: footer;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.img {
+    float: right;
+    max-width: 300px;
+}
