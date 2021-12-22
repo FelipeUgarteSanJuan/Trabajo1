@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkkhaki;
+    color: dimgrey;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+.contenedor {
+    background-color: rgb(228, 224, 186);
+    padding: 20px;
+    margin: 20px;
+    width: 90%;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: "header header header" "contenido contenido sidebar" "caja1 caja2 sidebar" "footer footer footer";
+}
