@@ -89,3 +89,20 @@ header {
     float: right;
     max-width: 300px;
 }
+
+@media screen and (max-width: 768px) {
+    .contenedor {
+        gap: 0.7rem;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(5, auto);
+        grid-template-areas: "header header header" "contenido contenido contenido" "sidebar sidebar sidebar" "caja1 caja2 caja2" "footer footer footer";
+    }
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
