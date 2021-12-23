@@ -34,6 +34,13 @@ header {
     border-radius: 4px;
 }
 
+.li {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+}
+
 .contenido {
     padding: 10px;
     border: 4px;
